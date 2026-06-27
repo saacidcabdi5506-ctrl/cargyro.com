@@ -429,3 +429,257 @@ body {
     border-color: #fff;
     transform: translateY(-2px);
 }
+
+/* ===================================================== */
+/* ================ RESPONSIVE / MEDIA QUERIES ========== */
+/* ===================================================== */
+
+/* Tablets and small laptops */
+@media (max-width: 1024px) {
+    .home-content h1 {
+        font-size: 60px;
+    }
+
+    .home-content p {
+        font-size: 15px;
+        padding: 0 20px;
+    }
+}
+
+/* Large phones / small tablets (landscape phones too) */
+@media (max-width: 768px) {
+    .header {
+        padding: 16px 6%;
+    }
+
+    .logo {
+        font-size: 26px;
+    }
+
+    .navbar a {
+        font-size: 15px;
+        margin-left: 18px;
+    }
+
+    .home-content h1 {
+        font-size: 44px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+        margin-bottom: 22px;
+        padding: 0 15px;
+    }
+
+    .home-content .start-btn {
+        width: 170px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .popup-info,
+    .quiz-section .quiz-box {
+        width: 90%;
+        max-width: 420px;
+    }
+
+    .popup-info h2 {
+        font-size: 36px;
+    }
+
+    .popup-info .info {
+        font-size: 14px;
+    }
+
+    .quiz-section .quiz-box h1 {
+        font-size: 24px;
+    }
+
+    .quiz-box .question-text {
+        font-size: 19px;
+        padding-right: 60px; /* keep text clear of the timer ring */
+    }
+
+    .option-list .option {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .timer-wrap {
+        width: 44px;
+        height: 44px;
+        top: 16px;
+        right: 20px;
+    }
+
+    .timer-ring {
+        width: 44px;
+        height: 44px;
+    }
+
+    .timer-text {
+        font-size: 13px;
+    }
+}
+
+/* Standard phones (most modern phones in portrait) */
+@media (max-width: 480px) {
+    body {
+        overflow-y: auto;
+    }
+
+    .header {
+        padding: 14px 5%;
+        flex-direction: row;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .navbar a {
+        font-size: 13px;
+        margin-left: 12px;
+    }
+
+    .home-content h1 {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+
+    .home-content p {
+        font-size: 13px;
+        margin-bottom: 18px;
+    }
+
+    .home-content .start-btn {
+        width: 150px;
+        height: 46px;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .popup-info,
+    .quiz-section .quiz-box {
+        width: 92%;
+        padding: 16px 18px;
+    }
+
+    .popup-info h2 {
+        font-size: 28px;
+    }
+
+    .popup-info .info {
+        font-size: 13px;
+        margin: 3px 0;
+    }
+
+    .popup-info .btn-group .info-btn {
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .quiz-section .quiz-box h1 {
+        font-size: 20px;
+        padding: 6px 0;
+    }
+
+    .quiz-section .quiz-box .quiz-header {
+        padding: 14px 0;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .quiz-section .quiz-box .quiz-header span {
+        font-size: 14px;
+    }
+
+    .quiz-header .header-score {
+        padding: 5px 9px;
+        font-size: 13px;
+    }
+
+    .quiz-box .question-text {
+        font-size: 16px;
+        padding-top: 14px;
+        padding-right: 50px;
+        line-height: 1.35;
+    }
+
+    .option-list .option {
+        font-size: 14px;
+        padding: 10px;
+        margin: 9px 0;
+    }
+
+    .quiz-box .quiz-footer {
+        margin-top: 18px;
+        padding-top: 14px;
+    }
+
+    .quiz-footer .question-total {
+        font-size: 13px;
+    }
+
+    .quiz-footer .next-btn {
+        width: 90px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .timer-wrap {
+        width: 38px;
+        height: 38px;
+        top: 14px;
+        right: 16px;
+    }
+
+    .timer-ring {
+        width: 38px;
+        height: 38px;
+    }
+
+    .timer-text {
+        font-size: 12px;
+    }
+
+    .result-score h2 {
+        font-size: 32px;
+    }
+
+    .result-actions {
+        flex-direction: column;
+    }
+
+    .result-btn {
+        width: 100%;
+        height: 46px;
+    }
+}
+
+/* Very small / older phones */
+@media (max-width: 360px) {
+    .home-content h1 {
+        font-size: 26px;
+    }
+
+    .home-content p {
+        font-size: 12px;
+    }
+
+    .popup-info,
+    .quiz-section .quiz-box {
+        width: 94%;
+        padding: 14px 14px;
+    }
+
+    .quiz-box .question-text {
+        font-size: 15px;
+        padding-right: 44px;
+    }
+
+    .option-list .option {
+        font-size: 13px;
+    }
+}
